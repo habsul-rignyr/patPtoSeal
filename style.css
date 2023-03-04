@@ -1,0 +1,33 @@
+#sealArea1,
+#sealArea2,
+#sealArea3,
+#sealArea4 {
+  font-family: Seal;
+  font-size: 80px;
+  color: red;
+}
+
+#sealArea3,
+#sealArea4 {
+  text-align: right;
+}
+
+@font-face {
+  font-family: Seal;
+  src: url("fangzhengtrad/fangzhengtrad.ttf");
+}
+
+.row,
+.col-md-6 {
+  padding: 0px;
+}
+
+@media only screen and (max-width: 576px) {
+  /* For mobile phones: */
+  #sealArea1,
+  #sealArea2,
+  #sealArea3,
+  #sealArea4 {
+    text-align: center;
+  }
+}
